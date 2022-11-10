@@ -1,0 +1,36 @@
+.Login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../background.jpeg");
+    background-size: 100px; */
+    background-color: #6B8FD4;
+    /* background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(227,227,235,1) 37%, rgba(41,38,163,1) 100%); */
+}
+
+.form-wrapper {
+    height: 60%;
+    width: 50%;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 0 50px 5px #1b2a6e;
+}
+
+form {
+    display: grid;
+    height: 100%;
+    width: 90%;
+    padding: 0% 2.5%;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+input {
+    margin-bottom: 2.5%;
+}
