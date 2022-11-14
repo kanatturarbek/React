@@ -9,7 +9,7 @@ export default function Login() {
                     <input type="email" name="email" placeholder="Enter your email" />
                     <input type="password" name="password" placeholder="Enter your password" />
                     <button type="submit">Sign In</button>
-                    <a href="">Don't have an account?</a>
+                    <a href="/">Don't have an account?</a>
                 </form>
             </div>
         </div>

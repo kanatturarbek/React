@@ -1,0 +1,97 @@
+.Nav {
+    width: 80%;
+    height: 100%;
+    padding-left: 20%;
+}
+.NavLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+.NavLogo:hover {
+    background-color: #000000;
+}
+img,
+.NavLogoImg{
+    width: 50px;
+    height: 50px;
+}
+.NavWrapper {
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navBar {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.navBar a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+}
+.navBarLinkWrapper {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 30px 10px 10px;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+}
+.navBar a:hover .navBarLinkWrapper{
+    background-color: #D6D2D2DE;
+}
+.button {
+    width: 70%;
+    height: 52px;
+    border: none;
+    border-radius: 9999px;
+    background-color: #AC2328;
+    color: #FFFFFF;
+    font-size: inherit;
+}
+.profileButton {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: background-color 0.2s;
+}
+.profileButton:hover {
+    background-color: #D6D2D2DE;
+}
+.userData {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.userPfp {
+    padding: 7px;
+}
+.userName {
+    font-weight: bold;
+}
+.userId {
+    color: #536471;
+}
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.svg-icon path {
+    fill: #000000;
+}

@@ -1,15 +1,10 @@
 import './App.css';
-import Login from './login/Login';
-import Logo from './login/Logo';
-import Register from './login/Register';
-
-let isRegistered = false;
+import { MainPage } from './Main Page/MainPage';
 
 function App() {
   return (
     <div className="App">
-      <Logo />
-      {isRegistered ? <Login /> : <Register />}
+      <MainPage />
     </div>
   );
 }
