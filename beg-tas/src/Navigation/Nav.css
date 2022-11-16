@@ -11,11 +11,12 @@
     height: 60px;
     border-radius: 100%;
     margin-top: 5px;
+    transition: background-color 0.2s;
 }
 .NavLogo:hover {
-    background-color: #000000;
+    background-color: #e3585d1c;
 }
-img,
+.Nav img,
 .NavLogoImg{
     width: 50px;
     height: 50px;
@@ -48,7 +49,7 @@ img,
 .navBar a:hover .navBarLinkWrapper{
     background-color: #D6D2D2DE;
 }
-.button {
+.Nav .button {
     width: 70%;
     height: 52px;
     border: none;
@@ -56,42 +57,36 @@ img,
     background-color: #AC2328;
     color: #FFFFFF;
     font-size: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
-.profileButton {
+.Nav .postButton:hover {
+    background-color: #8d1b1f;
+}
+.Nav .profileButton {
     display: flex;
     align-items: center;
     height: fit-content;
     margin-bottom: 10px;
     background-color: #FFFFFF;
     color: #000000;
-    transition: background-color 0.2s;
 }
-.profileButton:hover {
+.Nav .profileButton:hover {
     background-color: #D6D2D2DE;
 }
-.userData {
+.Nav .userData {
     display: flex;
     flex-direction: column;
     padding-left: 2px;
     justify-content: space-around;
     align-items: flex-start;
 }
-.userPfp {
+.Nav .userPfp {
     padding: 7px;
 }
-.userName {
+.Nav .userName {
     font-weight: bold;
 }
-.userId {
+.Nav .userId {
     color: #536471;
-}
-.svg-icon {
-    width: 1em;
-    height: 1em;
-    font-size: 40px;
-    padding-right: 10px;
-}
-
-.svg-icon path {
-    fill: #000000;
 }

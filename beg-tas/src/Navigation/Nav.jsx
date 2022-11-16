@@ -14,7 +14,7 @@ export const Nav = (props) => {
         <div className="Nav">
             <div className="NavLogo">
                 <a href="/" className="NavLogoImg">
-                    <img src={logo1} alt="logo" />
+                    <img src={logo} alt="logo" />
                 </a>
             </div>
             <div className="NavWrapper">
@@ -52,7 +52,7 @@ export const Nav = (props) => {
                             Profile
                         </div>
                     </a>
-                    <button className="button">
+                    <button className="button postButton">
                         Post
                     </button>
                     {/* <a href="/">Messages</a> */}

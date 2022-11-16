@@ -1,6 +1,69 @@
 .Post {
-    width: 100px;
-    height: 80px;
-    background-color: black;
-    margin: 10px;
+    width: inherit;
+    height: fit-content;
+    margin-left: 0px;
+    border-bottom: 1px solid rgba(239, 243, 244, 1);
+    transition: background-color 0.2s;
+}
+.Post:hover {
+    background-color: #d6d2d290;
+}
+.Post a {
+    text-decoration: none;
+    color: black;
+}
+.postBody {
+    display: flex;
+    padding-top: 10px;
+}
+.Post .userPfpImg {
+    width: 50px;
+    height: 50px;
+}
+.Post .postTextWrapper {
+    padding-right: 5%;
+}
+.Post .postImage {
+    max-width: 95%;
+    min-width: 70%;
+    max-height: 500px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid rgba(239, 243, 244, 1);
+}
+.Post .userPfp {
+    width: 50px;
+    height: 50px;
+    background-color: #e3585d1c;
+    margin: 5px 10px 0px 15px;
+    border-radius: 100%;
+}
+.Post .userName {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.Post .userId {
+    color: #536471;
+}
+.Post .userName:hover{
+    text-decoration: underline;
+}
+.Post .svg-icon {
+    font-size: 20px;
+}
+.Post .heart:hover path {
+    fill: red;
+}
+.Post .filled-heart path {
+    fill: red;
+}
+.Post .postFooterWrapper {
+    display: flex;
+    padding: 10px 5% 10px 75px;
+    justify-content: space-between;
+}
+.Post .postFooter {
+    display: flex;
+    align-items: center;
 }
