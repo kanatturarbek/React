@@ -1,5 +1,33 @@
 .Search {
-    width: 100px;
-    height: 100%;
-    background-color: aqua;
+    flex-grow: 1;
+    min-width: calc(100% - 750px);
+    height: 150vh;
+}
+.Search .search-bar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 45px;
+    border-radius: 9999px;
+    border: 1px solid #AC2328;
+    margin: 5px 20px 20px;
+}
+.Search .search-bar:hover {
+    cursor: text;
+}
+.Search .search-bar-input {
+    width: calc(100% - 50px);
+    font-size: 17px;
+    border: none;
+    padding: 0;
+}
+.Search .search-bar-input:focus {
+    outline-width: 0;
+}
+.Search .svg-icon {
+    margin-left: 15px;
+    font-size: 20px;
+}
+.Search .search-result {
+    width: inherit;
 }

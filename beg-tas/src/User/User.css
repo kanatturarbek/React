@@ -1,0 +1,62 @@
+.User .link {
+    width: 90%;
+    height: 52px;
+    border: none;
+    border-radius: 9999px;
+    font-size: inherit;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+.User .profile-link {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    margin: 10px 20px;
+    background-color: #f2eeeede;
+    color: #000000;
+}
+.User .profile-link:hover {
+    background-color: #D6D2D2DE;
+}
+.User .userData {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.User .userPfp {
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+.User .userName {
+    font-weight: bold;
+}
+.User .userName:hover {
+    text-decoration: underline;
+}
+.User .userId {
+    color: #536471;
+}
+.User .userFollow {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    text-decoration: none;
+}
+.User .userFollowButton {
+    width: 60%;
+    height: 30px;
+    margin: 0px 10px;
+    background-color: #AC2328;
+    border: none;
+    border-radius: 9999px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+.User .userFollowButton:hover {
+    background-color: #8d1b1f;
+}
