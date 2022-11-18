@@ -2,6 +2,7 @@ import { Nav } from "../Navigation/Nav";
 import { Posts } from "../Posts/Posts";
 import { Search } from "../Search/Search";
 import { useState, useEffect } from 'react';
+import { Bookmark } from "../Bookmark/Bookmark";
 import "./MainPage.css"
 
 function getWindowDimensions() {
@@ -27,14 +28,8 @@ function useWindowDimensions() {
   	return windowDimensions;
 }
 
-export function MainPage() {
+export function MainPage(props) {
 
-    useEffect(() => {
-        const navWidth = getComputedStyle(document.documentElement).getPropertyValue('--nav-width');
-        console.log(navWidth);
-
-    }, []);
-    
     function setNavWidth (newNavWidgh){
         document.documentElement.style.setProperty('--nav-width', newNavWidgh);
     }
@@ -47,8 +42,11 @@ export function MainPage() {
                 <Nav height={height} width={width} setNavWidth={setNavWidth}/>
             </section>
             <section className="section">
-                <Posts />
-                <Search />
+                {props.bookmark ? 
+                <Bookmark style={(!(width <= 1410)) ? {maxWidth: "750px"} : {flexGrow: "1"}} />
+                :
+                <Posts style={(!(width <= 1410)) ? {maxWidth: "750px"} : {flexGrow: "1"}} />}
+                {(!(width <= 1410)) ? <Search /> : ""}
             </section>
             
         </div>

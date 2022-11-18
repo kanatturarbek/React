@@ -1,9 +1,6 @@
 :root {
     --nav-width: 380px;
 }
-.App {
-    display: flex;
-}
 .svg-icon {
     width: 1em;
     height: 1em;

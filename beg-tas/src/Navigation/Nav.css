@@ -60,6 +60,12 @@
     cursor: pointer;
     transition: background-color 0.2s;
 }
+.Nav .postButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
 .Nav .postButton:hover {
     background-color: #8d1b1f;
 }
@@ -89,4 +95,10 @@
 }
 .Nav .userId {
     color: #536471;
+}
+.Nav .postButton .svg-icon {
+    font-size: 20px;
+}
+.Nav .postButton path {
+    fill: white;
 }

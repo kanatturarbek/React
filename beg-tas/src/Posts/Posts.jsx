@@ -1,9 +1,10 @@
 import { Post } from "./Post";
 import "./Posts.css"
 
-export const Posts = () => {
+export const Posts = (props) => {
+
     return(
-        <div className="Posts">
+        <div style={props.style} className="Posts">
             <Post />
             <Post />
             <Post />

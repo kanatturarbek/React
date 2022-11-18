@@ -1,10 +1,10 @@
 import "./Register.css"
 
-export default function Register() {
+export function Register() {
     return (
         <div className="Register">
             <div className="form-wrapper">
-                <form>
+                <form action="/login">
                     <h1>Register</h1>
                     <input type="email" name="email" placeholder="Enter your email" />
                     <input type="text" name="name" placeholder="Enter your name" />

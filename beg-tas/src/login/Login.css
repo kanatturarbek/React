@@ -1,4 +1,4 @@
-* {
+.Login * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@
     background-color: #fff;
 }
 
-.form-wrapper {
+.Login .form-wrapper {
     height: 60%;
     width: 50%;
     background-color: #fff;
@@ -35,7 +35,7 @@
     box-shadow: 0 0 50px 5px #b5b5b5;
 }
 
-form {
+.Login form {
     display: grid;
     height: 100%;
     width: 90%;
@@ -44,53 +44,54 @@ form {
     grid-gap: 1.5%;
 }
 
-input { 
+.Login input { 
     padding: 5%;
     border-color: #e2e2e2;
     border-style: solid;
 }
 
-h1 {
+.Login h1 {
     color: #ab2328;
     font-family: myFont1, serif;
     font-size: 3em;
     margin: 10% auto;
 }
 
-button {
+.Login button {
     background-color: #010049;
     font-family: myFont2;
     color: #fff;
     font-size: 2em;
 }
 
-input, button {
+.Login input, 
+.Login button {
     border-radius: 0.5rem;
 }
 
-button {
+.Login button {
     border-style: none;
 }
 
-button:hover {
+.Login button:hover {
     background-color: #0236b0;
 }
 
-button:active {
+.Login button:active {
     background-color: #1c6ef4;
     color: #ab2328;
 }
 
-a {
+.Login a {
     grid-row: 6;
     color: #000;
     text-decoration: none;
 }
 
-a:hover {
+.Login a:hover {
     color: #ab2328;
 }
 
-a:active {
+.Login a:active {
     color: #fa2c33;
 }
