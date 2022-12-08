@@ -1,8 +1,8 @@
-import "./User.css"
-import logo1 from "../logo512.png"
+import "./User.css";
+import logo1 from "../logo512.png";
 
 export const User = () => {
-    return(
+    return (
         <div className="User">
             <a href="/123" className="link profile-link">
                 <img className="userPfp" src={logo1} alt="logo" />
@@ -18,4 +18,4 @@ export const User = () => {
             </a>
         </div>
     );
-}
+};

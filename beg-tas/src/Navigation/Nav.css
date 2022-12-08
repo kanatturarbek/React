@@ -33,8 +33,8 @@
     flex-direction: column;
     font-size: 20px;
 }
-.navBar a {
-    text-decoration: none;
+.navBar .a {
+    cursor: pointer;
     color: black;
     padding: 5px 0px;
 }
@@ -46,7 +46,7 @@
     border-radius: 9999px;
     transition: background-color 0.2s;
 }
-.navBar a:hover .navBarLinkWrapper{
+.navBar .a:hover .navBarLinkWrapper{
     background-color: #D6D2D2DE;
 }
 .Nav .button {
