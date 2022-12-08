@@ -27,7 +27,7 @@ function useWindowDimensions() {
   	return windowDimensions;
 }
 
-export default function Profile() {
+export function Profile() {
 
     useEffect(() => {
         const navWidth = getComputedStyle(document.documentElement).getPropertyValue('--nav-width');
@@ -48,7 +48,7 @@ export default function Profile() {
             </section>
             <section className="section">
                 <Info />
-                {/* <Posts /> */}
+                <Posts />
             </section>
         </div>
     );
