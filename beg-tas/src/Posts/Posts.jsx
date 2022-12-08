@@ -1,9 +1,8 @@
 import { Post } from "./Post";
-import "./Posts.css"
+import "./Posts.css";
 
 export const Posts = (props) => {
-
-    return(
+    return (
         <div style={props.style} className="Posts">
             <Post />
             <Post />
@@ -31,4 +30,4 @@ export const Posts = (props) => {
             <Post />
         </div>
     );
-}
+};

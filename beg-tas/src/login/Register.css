@@ -24,7 +24,7 @@
 }
 
 .Register .form-wrapper {
-    height: 70%;
+    height: 80%;
     width: 50%;
     background-color: #fff;
     display: flex;
@@ -40,7 +40,7 @@
     height: 100%;
     width: 90%;
     padding: 0% 2.5%;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-gap: 1.5%;
 }
 
