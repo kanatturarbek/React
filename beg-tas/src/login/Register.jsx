@@ -1,6 +1,6 @@
 import "./Register.css";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export function Register() {
     const [email, setEmail] = useState();
@@ -39,7 +39,9 @@ export function Register() {
             .catch((error) => {
                 console.error("There was an error!", error);
             })
-            .finally(() => {navigate("/login")});
+            .finally(() => {
+                navigate("/login");
+            });
     };
 
     return (
@@ -88,6 +90,9 @@ export function Register() {
                         }}
                     />
                     <button type="submit">Sign Up</button>
+                    <Link to="/login" className="Register-have-account">
+                        Already have an account?
+                    </Link>
                 </form>
             </div>
         </div>
