@@ -4,6 +4,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { MainPage } from "./Main Page/MainPage";
 import { LoginPage } from "./Login/LoginPage";
 import { RegisterPage } from "./Login/RegisterPage";
+import { Profile } from "./Profile/Profile";
 import { AuxContext } from "./context/AuthContext";
 import { PostContext } from "./context/PostContext";
 
@@ -38,6 +39,14 @@ function App() {
                                 element={
                                     <ProtectedRoute>
                                         <MainPage bookmark={true} />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            <Route
+                                path="/profile"
+                                element={
+                                    <ProtectedRoute>
+                                        <Profile />
                                     </ProtectedRoute>
                                 }
                             />

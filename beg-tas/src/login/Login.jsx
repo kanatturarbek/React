@@ -1,13 +1,12 @@
 import "./Login.css";
 import { useState, useContext } from "react";
 import { AuxContext } from "../context/AuthContext";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 export function Login() {
     const { aux_token, setAuxToken, setMainToken } = useContext(AuxContext);
-    const [username, setUsername] = useState();
-    const [password, setPassword] = useState();
-    const navigate = useNavigate();
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -55,12 +54,12 @@ export function Login() {
                 })
                 .catch((error) => {
                     console.error("There was an error!", error);
-                })
+                });
         }
     };
 
     if (aux_token) {
-        return <Navigate to="/home" replace />
+        return <Navigate to="/home" replace />;
     }
 
     return (

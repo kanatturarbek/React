@@ -7,7 +7,7 @@
     border-bottom: 1px solid rgba(239, 243, 244, 1);
 }
 
-.Info-image {
+.Info .Info-image {
     display: flex;
     align-items:center;
     justify-content: center;
@@ -18,37 +18,37 @@
     border-radius: 100%;
 }
 
-.Info-image img {
+.Info .Info-image img {
     width: 150px;
     height: 150px;
 }
 
-.Info-stat {
+.Info .Info-stat {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.Info-stat-top {
+.Info .Info-stat-top {
     display: flex;
     align-items: center;
     width: 80%;
     justify-content: space-between;
 }
 
-.Info-username h1 {
+.Info .Info-username h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 1.5rem;
     font-weight: normal;
 }
 
-.Info-edit a {
+.Info .Info-edit a {
     text-decoration: none;
     color: #262626;
 }
 
-.Info-edit {
+.Info .Info-edit {
     border: 2px solid rgba(239, 243, 244, 1);
     border-radius: 4px;
     display: flex;
@@ -59,7 +59,7 @@
     cursor: pointer;
 }
 
-.Info-stat-bottom {
+.Info .Info-stat-bottom {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -67,35 +67,35 @@
     align-items: center
 }
 
-.Info-posts {
+.Info .Info-posts {
     display: flex;
     flex-direction: column;
     align-items:center
 }
 
-.Info-posts p {
+.Info .Info-posts p {
     margin: 0;
     padding: 2px 10px;
 }
 
-.Info-followers {
+.Info .Info-followers {
     display: flex;
     flex-direction: column;
     align-items:center
 }
 
-.Info-followers p {
+.Info .Info-followers p {
     margin: 0;
     padding: 2px 10px;
 }
 
-.Info-following {
+.Info .Info-following {
     display: flex;
     flex-direction: column;
     align-items:center
 }
 
-.Info-following p {
+.Info .Info-following p {
     margin: 0;
     padding: 2px 10px;
 }
