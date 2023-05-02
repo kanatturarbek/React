@@ -1,12 +1,9 @@
 import "./Nav.css";
 import logo from "../logo.png";
 import logo1 from "../logo512.png";
-import { AuxContext } from "../context/AuthContext";
-import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const Nav = (props) => {
-    const { setAuxToken, setMainToken } = useContext(AuxContext);
     const navigate = useNavigate();
 
     if (props.width < 900) {
@@ -14,13 +11,6 @@ export const Nav = (props) => {
     } else {
         props.setNavWidth("380px");
     }
-
-    const handleLogout = () => {
-        localStorage.removeItem("aux_token");
-        localStorage.removeItem("main_token");
-        setAuxToken(null);
-        setMainToken(null)
-    };
 
     return (
         <div className="Nav">
@@ -50,7 +40,7 @@ export const Nav = (props) => {
                             Bookmarks
                         </div>
                     </div>
-                    <div className="a" href="/" onClick={handleLogout}>
+                    <div className="a" href="/">
                         <div className="navBarLinkWrapper">
                             <svg className="svg-icon" viewBox="0 0 20 20">
                                 <path
