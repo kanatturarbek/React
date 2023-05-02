@@ -1,6 +1,6 @@
 import "./Register.css";
 import { useState } from "react";
-import { Navigate, redirect } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 
 export function Register() {
     const [email, setEmail] = useState();
@@ -55,6 +55,9 @@ export function Register() {
                         }}
                     />
                     <button type="submit">Sign Up</button>
+                    <Link to="/login" className="Register-have-account">
+                        Already have an account?
+                    </Link>
                 </form>
             </div>
         </div>

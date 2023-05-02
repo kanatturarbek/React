@@ -4,15 +4,16 @@
     width: 100vw;
     justify-content: space-between;
 }
-.section {
+.Profile .section {
     display: flex;
     height: 100vh;
+    flex-direction: column;
     overflow-y: auto;
 }
-.section:nth-child(1) {
+.Profile .section:nth-child(1) {
     width: var(--nav-width);
     border-right: 1px solid rgba(239, 243, 244, 1);
 }
-.section:nth-child(2) {
+.Profile .section:nth-child(2) {
     width: calc(100% - var(--nav-width));
 }

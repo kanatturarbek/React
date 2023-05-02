@@ -16,13 +16,13 @@ export const Post = () => {
             <a href="/sadsad">
                 <div className="postBody">
                     <div className="userPfp">
-                        <a href="/asd">
+                        <a href="/profile">
                             <img className="userPfpImg" src={logo} alt="" />
                         </a>
                     </div>
                     <div className="post">
                         <div className="postHeaderWrapper">
-                            <a className="userProf" href="/asd">
+                            <a className="userProf" href="/profile">
                                 <span className="userName">Username</span>
                                 <span className="userId">@userID</span>
                             </a>
