@@ -8,6 +8,7 @@
     transition: background-color 0.2s;
 }
 .User .profile-link {
+    
     display: flex;
     align-items: center;
     height: fit-content;

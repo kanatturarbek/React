@@ -15,6 +15,7 @@ export const User = () => {
                         <span>Follow</span>
                     </button>
                 </a>
+                
             </a>
         </div>
     );
