@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { MainPage } from "./Main Page/MainPage";
-import { LoginPage } from "./Login/LoginPage";
-import { RegisterPage } from "./Login/RegisterPage";
+import {LoginPage} from "./login/LoginPage"
+import {RegisterPage} from "./login/RegisterPage"
 import { Profile } from "./Profile/Profile";
 
 function App() {

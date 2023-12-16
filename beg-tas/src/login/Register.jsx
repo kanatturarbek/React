@@ -11,6 +11,7 @@ export function Register() {
 
     return (
         <div className="Register">
+            
             <div className="form-wrapper">
                 <form action="/login">
                     <h1>Register</h1>

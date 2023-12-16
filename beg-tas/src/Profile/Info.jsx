@@ -4,6 +4,7 @@ import "./Info.css"
 export default function Info() {
     return (
         <div className="Info">
+            
             <div className="Info-image">
                 <img src={logo} alt="logo" />
             </div>

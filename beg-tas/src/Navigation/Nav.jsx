@@ -13,6 +13,7 @@ export const Nav = (props) => {
     }
 
     return (
+        
         <div className="Nav">
             <div className="NavLogo">
                 <a href="/home" className="NavLogoImg">

@@ -6,6 +6,7 @@ export const LoginPage = () => {
         <div style={{ display: "flex" }} className="LoginPage">
             <Logo />
             <Login />
+            
         </div>
     );
 };

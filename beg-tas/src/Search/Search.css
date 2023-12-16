@@ -13,6 +13,7 @@
     margin: 5px 20px 20px;
 }
 .Search .search-bar:hover {
+    
     cursor: text;
 }
 .Search .search-bar-input {
