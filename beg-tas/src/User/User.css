@@ -60,4 +60,6 @@
 }
 .User .userFollowButton:hover {
     background-color: #8d1b1f;
+    text-decoration: underline;
+    outline: #FFFFFF;
 }
