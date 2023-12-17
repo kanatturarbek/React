@@ -1,4 +1,4 @@
-import logo from "../logo.png";
+import logo from "../logoBeg-tas.png";
 import "./Logo.css"
 
 export function Logo() {

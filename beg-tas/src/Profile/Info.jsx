@@ -6,7 +6,7 @@ export default function Info() {
         <div className="Info">
             
             <div className="Info-image">
-                <img src={logo} alt="logo" />
+                <img src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="logo" />
             </div>
             <div className="Info-stat">
                 <div className="Info-stat-top">

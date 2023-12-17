@@ -1,11 +1,10 @@
 import "./User.css";
-import logo1 from "../logo512.png";
 
 export const User = () => {
     return (
         <div className="User">
             <a href="/123" className="link profile-link">
-                <img className="userPfp" src={logo1} alt="logo" />
+                <img className="userPfp" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="logo" />
                 <span className="userData">
                     <span className="userName">Username</span>
                     <span className="userId">@userID</span>

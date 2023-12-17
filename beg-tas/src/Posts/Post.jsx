@@ -18,7 +18,7 @@ export const Post = () => {
                 <div className="postBody">
                     <div className="userPfp">
                         <a href="/profile">
-                            <img className="userPfpImg" src={logo} alt="" />
+                            <img className="userPfpImg" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="" />
                         </a>
                     </div>
                     <div className="post">
@@ -38,7 +38,7 @@ export const Post = () => {
                         <div className="postImageWrapper">
                             <img
                                 className="postImage"
-                                src="https://cdn.mos.cms.futurecdn.net/CAZ6JXi6huSuN4QGE627NR.jpg"
+                                src="https://worldinparis.com/wp-content/uploads/2019/08/Arc-de-Triomphe-Paris-1024x683.jpg"
                                 alt=""
                             />
                         </div>

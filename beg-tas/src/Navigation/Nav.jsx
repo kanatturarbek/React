@@ -1,6 +1,5 @@
 import "./Nav.css";
-import logo from "../logo.png";
-import logo1 from "../logo512.png";
+import logo from "../logoBeg-tas.png";
 import { useNavigate } from "react-router-dom";
 
 export const Nav = (props) => {
@@ -83,7 +82,7 @@ export const Nav = (props) => {
                             navigate("/profile");
                         }}
                     >
-                        <img className="userPfp" src={logo1} alt="logo" />
+                        <img className="userPfp" src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="logo" />
                         <span className="userData">
                             <span className="userName">Username</span>
                             <span className="userId">@userID</span>
